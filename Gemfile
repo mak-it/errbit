@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 RAILS_VERSION = '~> 4.2.10'
 
+gem 'newrelic_rpm'
+
 send :ruby, ENV['GEMFILE_RUBY_VERSION'] if ENV['GEMFILE_RUBY_VERSION']
 
 gem 'actionmailer', RAILS_VERSION
